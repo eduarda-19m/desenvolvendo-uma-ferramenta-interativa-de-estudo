@@ -57,7 +57,7 @@ h1 {
     box-shadow: 0 8px 16px var(--sombra-cartao);
 }
 
-.card:active {
+.card.flipped {
     transform: rotateY(180deg);
 }
 
